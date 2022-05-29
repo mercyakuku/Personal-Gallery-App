@@ -1,0 +1,25 @@
+
+{%extends 'base.html'%}
+{% load static%}
+{% block content %}
+
+{{block.super}}
+
+
+<!-- Landing Page -->
+<div class="banner">
+    <div class="cover">
+        <div class="container image">
+             <h2 id="category">Welcome to Akush gallery app!</h2>
+             <form class="form" role="search" action="{% url 'search_image' %}">
+
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="&#xf3ee; Search by category" name="image_category">
+                  <br>
+                </div>
+             </form>
+                <p>Where users can view displayed photos, copy their links and view their locations and categories!</p>
+                <a href="#gallery">VIEW PHOTOS GALLERY</a>
+        </div>
+    </div>
+ </div>
