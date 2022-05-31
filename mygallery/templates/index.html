@@ -12,7 +12,8 @@
              <form class="form" role="search" action="{% url 'search_image' %}">
 
                 <div class="input-group">
-                  <input type="text" class="form-control" placeholder="&#xf3ee; Search by category" name="image_category">
+                  <input type="text" class="form-control" placeholder="&#xf3ff; Search by category" name="image_category">
+                  <button class="btn btn-outline-white btn-sm my-0" type="submit">Search</button>
                   <br>
                 </div>
              </form>
@@ -46,7 +47,7 @@
            <img src="{% static 'images/sorry.png' %}" alt="" class="oops">
        </div>
        <div class="col-sm-6 col-md-6 col-lg-6">
-           <h2 class="text-center"> Sorry no images for now they are comming soon.</h2>
+           <h2 class="text-center"> Sorry no images, coming soon.</h2>
        </div>
    </div>
    {% endfor %}
