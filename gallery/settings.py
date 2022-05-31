@@ -38,8 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'mygallery.apps.Mygallery.Config',
-    'bootstap5',
+    'mygallery.apps.MygalleryConfig',
+    'bootstrap5',
 ]
 
 MIDDLEWARE = [
@@ -80,6 +80,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
+        'USER': 'grace',
+    'PASSWORD':'simakush',
     }
 }
 
