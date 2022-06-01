@@ -9,13 +9,11 @@ This is a Django application of a personal gallery that displays photos for user
  Click [View Site]()  to visit the site.
   
 ## Screenshots 
-###### Home page
+ ## Home page
  
-<img src="https://raw.githubusercontent.com/Owiti-Charles/Picture-Globe/master/static/images/landingpage.png">
- 
- ###### Search results
+ ## Search results
 
- ###### Image Details 
+ ## Image Details 
 
  ## Django administration
  <img src="https://user-images.githubusercontent.com/100420952/171427175-3966b995-68bb-4d9f-9143-f6ad11bcd3d7.png">
