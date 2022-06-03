@@ -11,8 +11,10 @@ This is a Django application of a personal gallery that displays photos for user
 ## Screenshots 
  ## Home page
   <img src="https://user-images.githubusercontent.com/100420952/171779725-b0cec5a9-51d8-4fa0-a755-0458bc3ac90d.png">
+  
  ## Search results
  <img src="https://user-images.githubusercontent.com/100420952/171779580-69c96414-9d55-4548-bfb6-22ffc2831ac4.png">
+ 
  ## Image Details 
 <img src="https://user-images.githubusercontent.com/100420952/171779811-7943a066-f72f-4ce7-b85b-1b02ecd20c74.png">
  
